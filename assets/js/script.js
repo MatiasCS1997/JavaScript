@@ -3,6 +3,7 @@ btnCalcular.addEventListener("click", () => {
   let inputCantidad = document.querySelector("#cantidad").value;
   let txtmonto = document.querySelector("#amount");
   txtmonto.innerHTML = inputCantidad;
+  /*seleccion de color*/
   let colors = document.querySelector("#colors").value;
   document.querySelector("#selectedColor");
   document.getElementById("coloruser").style.color = colors;
