@@ -14,10 +14,23 @@
   text-align: center;
 }
 
+.product {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80vh;
   margin: 10%;
+}
+
+button {
+  text-align: center;
+  background-color: rgb(129, 44, 2);
+  font-size: 100%;
+  color: white;
+  padding: 10px;
 }

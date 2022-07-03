@@ -18,6 +18,33 @@
           src="assets/img/Laptop gamer.jpeg"
           alt="Laptor gamer con detalles en verde"
         />
+        <h2 class="product">Laptop Gamer 2022</h2>
+        <input type="text" id="cantidad" placeholder="Cantidad" value="1" />
+        <select id="colors" placeholder="color">
+          <option value="blue">Azul</option>
+          <option value="purple">Morado</option>
+          <option value="gold">Dorado</option>
+          <option value="orange">Naranja</option>
+          <option value="green">Verde</option>
+        </select>
+        <select id="price">
+          <option value="10000">Price: 10000</option>
+          <option value="50000">Price: 50000</option>
+          <option value="100000">Price: 100000</option>
+          <option value="120000">Price: 120000</option>
+          <option value="150000">Price: 150000</option>
+        </select>
+        <div>
+          <button id="get-total">calcular total</button>
+        </div>
+        <section id="totalprice">
+          <p>total: $ <span id="total">0</span></p>
+          <p>cantidad: <span id="monto">0</span></p>
+          <p>
+            color:
+            <i id="coloruser" class="fa-solid fa-circle color_laptop"></i>
+          </p>
+        </section>
       </div>
     </div>
     <script src="assets/js/script.js"></script>
